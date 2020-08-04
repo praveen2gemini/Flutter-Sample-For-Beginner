@@ -35,11 +35,11 @@ class DesignedApp extends StatelessWidget {
     }
 
     return new MaterialApp(
-        title: "My FIrst Flutter",
+        title: "My First Flutter",
         theme: new ThemeData(primarySwatch: Colors.pink),
         home: new Scaffold(
           backgroundColor: Colors.pink[100],
-          appBar: new AppBar(title: new Text("Hello Google!")),
+          appBar: new AppBar(title: new Text("Hello Flutter!")),
           body: new Container(
               padding: const EdgeInsets.all(32.0),
               child: new LayoutBuilder(
@@ -134,11 +134,11 @@ class MyApp extends StatelessWidget {
           return new Container();
         });
     return new MaterialApp(
-        title: "My FIrst Flutter",
+        title: "My First Flutter",
         theme: new ThemeData(primarySwatch: Colors.brown),
         home: new Scaffold(
             backgroundColor: Colors.white30,
-            appBar: new AppBar(title: new Text("Hello Google!")),
+            appBar: new AppBar(title: new Text("Hello Flutter!")),
             body: new FutureBuilder<List<CelebrityInfo>>(
                 future: CelebrityInfo.fetchCelebritiesDetails(),
                 builder: (context, celebs) {
